@@ -1,0 +1,12 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		Console.Write("Please enter your name ");
+		string name = Console.ReadLine(); //enter your name
+	
+		Console.WriteLine("Hey " + name + "!");
+	}
+    }
